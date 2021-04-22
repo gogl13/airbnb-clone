@@ -1,0 +1,30 @@
+div {
+  background-color: red;
+}
+
+.greenbox {
+  font-size: 20px;
+  background-color: green;
+}
+.fontbig {
+  font-size: 40px;
+}
+
+#bluebox {
+  background-color: blue;
+}
+
+.box {
+  display: flex;
+}
+
+.a {
+  margin: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  background-color: yellow;
+}
+
+.b {
+  background-color: skyblue;
+}
