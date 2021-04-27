@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+}
+
+.modalfull {
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 789px;
+    justify-content: center;
+    flex-direction: column;
+    
+}    
+
+
+.modaltitle {
+  
+border-bottom: 1px solid rgb(235, 235, 235);
+border: solid pink 1px;
+align-content: center;
+box-sizing: border-box;
+display: flex;
+flex-basis: auto;
+flex-grow: 0;
+flex-shrink: 0;
+width: 568px;
+height: 64px;
+padding: 0px 24px;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+}
+
+.modaltext{
+
+box-sizing: border-box;
+height: 612px;
+padding:24px;
+width: 568px;
+display: flex;
+flex-direction: column;
+}
+
+
+
+webkit-font-smoothing antialiased
+-webkit-box-align center
+-webkit-box-direction normal
+-webkit-box-pack justify
+
+
+align-items center
+box-sizing border-box
+display flex
+flex-basis auto
+flex-grow 0
+flex-shrink 0
+height 64px
+justify-content space-between
+min-height 64px
+padding-bottom 0px
+padding-left 24px
+padding-right 24px
+padding-top 0px
+width 568px
+Text
+font-family Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif
+font-size 16px
+font-weight 800
+line-height 20px
+text-size-adjust 100%
+word-break 
+}
+
+.modaltext {
+}
