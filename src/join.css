@@ -3,77 +3,156 @@ body {
 }
 
 .modalfull {
-    align-items: center;
-    padding: 40px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    width: 1440px;
-    height: 789px;
-    justify-content: center;
-    flex-direction: column;
-    
-}    
-
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  height: 789px;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .modaltitle {
-  
-border-bottom: 1px solid rgb(235, 235, 235);
-border: solid pink 1px;
-align-content: center;
-box-sizing: border-box;
-display: flex;
-flex-basis: auto;
-flex-grow: 0;
-flex-shrink: 0;
-width: 568px;
-height: 64px;
-padding: 0px 24px;
-justify-content: center;
-align-items: center;
-font-weight: bold;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  border: solid gray 1px;
+  align-content: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 568px;
+  height: 64px;
+  padding: 0px 24px 0px 24px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.modaltext{
-
-box-sizing: border-box;
-height: 612px;
-padding:24px;
-width: 568px;
-display: flex;
-flex-direction: column;
+.country {
+  border: solid 1px gray;
+  padding: 16px 36px 16px 12px;
+  font-size: 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
+.korea {
+  font-size: 16px;
+}
 
+.number {
+  color: gray;
+  padding: 26px 36px 26px 12px;
+  border: gray solid 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 
-webkit-font-smoothing antialiased
--webkit-box-align center
--webkit-box-direction normal
--webkit-box-pack justify
+.arm {
+  font-size: 12px;
+  padding: 10px 0px 16px 0px;
+  color: gray;
+}
 
+.continue {
+  background-color: hotpink;
+  width: 520px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-align-items center
-box-sizing border-box
-display flex
-flex-basis auto
-flex-grow 0
-flex-shrink 0
-height 64px
-justify-content space-between
-min-height 64px
-padding-bottom 0px
-padding-left 24px
-padding-right 24px
-padding-top 0px
-width 568px
-Text
-font-family Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif
-font-size 16px
-font-weight 800
-line-height 20px
-text-size-adjust 100%
-word-break 
+  color: aliceblue;
+}
+
+.solid {
+  border-color: hotpink;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 12px;
+}
+
+.or {
+  padding: 10px;
+  font-size: 10px;
+  color: gray;
+}
+
+.email {
+  box-sizing: border-box;
+  border: solid 2px grey;
+  margin-top: 16px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+}
+
+.emailimg {
+  width: 20px;
+  height: 20px;
+}
+
+.facebook {
+  box-sizing: border-box;
+  border: solid 2px grey;
+  margin-top: 16px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+}
+
+.google {
+  box-sizing: border-box;
+  border: solid 2px grey;
+  margin-top: 16px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+}
+
+.apple {
+  box-sizing: border-box;
+  border: solid 2px grey;
+  margin-top: 16px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+}
+
+.already {
+  font-size: 14px;
+  color: grey;
+  padding-top: 16px;
 }
 
 .modaltext {
+  box-sizing: border-box;
+  height: 612px;
+  padding: 24px;
+  width: 568px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-top: none;
 }
