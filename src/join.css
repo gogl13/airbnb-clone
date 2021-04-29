@@ -17,12 +17,9 @@ body {
 .modaltitle {
   border-bottom: 1px solid rgb(235, 235, 235);
   border: solid gray 1px;
-  align-content: center;
   box-sizing: border-box;
-  display: flex;
   flex-basis: auto;
-  flex-grow: 0;
-  flex-shrink: 0;
+  display: flex;
   width: 568px;
   height: 64px;
   padding: 0px 24px 0px 24px;
@@ -33,9 +30,22 @@ body {
   border-top-right-radius: 10px;
 }
 
+.closeicon {
+  width: 20px;
+  height: 20px;
+}
+
+.join {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
 .country {
   border: solid 1px gray;
-  padding: 16px 36px 16px 12px;
+  padding: 12px 36px 12px 12px;
   font-size: 12px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -47,7 +57,7 @@ body {
 
 .number {
   color: gray;
-  padding: 26px 36px 26px 12px;
+  padding: 16px 36px 16px 12px;
   border: gray solid 1px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -67,8 +77,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   color: aliceblue;
+  transition-duration: 1s;
+}
+
+.continue:hover {
+  background-color: pink;
+  cursor: pointer;
+  transition-duration: 1s;
 }
 
 .solid {
@@ -91,12 +107,19 @@ body {
   box-sizing: border-box;
   border: solid 2px grey;
   margin-top: 16px;
+  display: flex;
+
   justify-content: center;
   text-align: center;
   padding: 10px 12px;
   border-radius: 10px;
   width: 520px;
   height: 48px;
+}
+
+.email:hover {
+  border-color: black;
+  cursor: pointer;
 }
 
 .emailimg {
@@ -108,12 +131,23 @@ body {
   box-sizing: border-box;
   border: solid 2px grey;
   margin-top: 16px;
+  display: flex;
   justify-content: center;
   text-align: center;
   padding: 10px 12px;
   border-radius: 10px;
   width: 520px;
   height: 48px;
+}
+
+.facebook:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.facebookicon {
+  width: 20px;
+  height: 20px;
 }
 
 .google {
@@ -126,6 +160,18 @@ body {
   border-radius: 10px;
   width: 520px;
   height: 48px;
+  display: flex;
+}
+
+.google:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.googleicon {
+  width: 20px;
+  height: 20px;
+  display: flex;
 }
 
 .apple {
@@ -138,6 +184,17 @@ body {
   border-radius: 10px;
   width: 520px;
   height: 48px;
+  display: flex;
+}
+
+.apple:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.appleicon {
+  width: 20px;
+  height: 20px;
 }
 
 .already {
@@ -155,4 +212,6 @@ body {
   flex-direction: column;
   border: 1px solid gray;
   border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
