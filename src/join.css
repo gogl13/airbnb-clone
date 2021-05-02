@@ -32,7 +32,6 @@ body {
 
 .modaltitle {
   border-bottom: 1px solid rgb(235, 235, 235);
-
   box-sizing: border-box;
   flex-basis: auto;
   display: flex;
@@ -51,6 +50,7 @@ body {
   top: 80px;
   left: 460px;
   box-sizing: border-box;
+  position: fixed;
 }
 
 .closeicon:hover {
