@@ -86,6 +86,14 @@ a:active {
   background-color: white;
 }
 
+.peoplejoin {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .tophalf {
   flex-direction: row;
   display: flex;
