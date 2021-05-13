@@ -88,10 +88,15 @@ a:active {
 
 .peoplejoin {
   color: white;
+
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.peoplejoin:hover {
+  cursor: pointer;
 }
 
 .tophalf {
