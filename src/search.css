@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+
+.full {
+  /* width: 1425px; */
+}
+
+.title {
+  width: 1425px;
+  height: 80px;
+  padding: 0px 24px;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  /* 
+  z-index: 1;
+  position: relative; */
+}
+
+.title1 {
+  box-sizing: border-box;
+  width: 464px;
+  height: 80px;
+}
+
+.title2 {
+  box-sizing: border-box;
+  width: 400px;
+  height: 80px;
+}
+
+.title3 {
+  box-sizing: border-box;
+  width: 464px;
+  height: 80px;
+}
+
+.infofull {
+}
+
+.map {
+}
