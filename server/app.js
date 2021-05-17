@@ -15,6 +15,10 @@ app.get("/search", (req, res) => {
   res.render("search.html");
 });
 
+app.get("/airbnb", (req, res) => {
+  res.render("airbnb.html");
+});
+
 app.listen(port, () => {
   console.log("server start", port);
 });
