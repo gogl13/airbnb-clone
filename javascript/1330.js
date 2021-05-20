@@ -1,12 +1,14 @@
-let input = require("fs").readFileSync("/dev/stdin").toString().split(" ");
-//let input = fs.readFileSync("./1300.js").toString().split("\n");
+// let input = require("fs").readFileSync("/dev/stdin").toString().split(" ");
+let input = require("fs").readFileSync("./input.txt").toString().split(" ");
 
-const a = parseInt(input[0]);
-const b = parseInt(input[1]);
+//input '12 112'
+
+const a = Number(input[0]);
+const b = Number(input[1]);
 
 if (a < b) {
   console.log("<");
-} else if (a > b) {
+} else if (a < b) {
   console.log(">");
 } else {
   console.log("==");
