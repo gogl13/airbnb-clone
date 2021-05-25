@@ -11,5 +11,5 @@ if (a > b) {
 } else if (a < b) {
   console.log("<");
 } else {
-  console.log("===");
+  console.log("==");
 }
