@@ -23,4 +23,10 @@ let x = 1;
 for (x = 1; x <= n; x++) {
   let star = x;
   let space = n - star;
+
+  let printString = "";
+
+  for (let i = 0; i < space; i++) printString += " ";
+  for (let i = 0; i < star; i++) printString += "*";
+  console.log(printString);
 }
