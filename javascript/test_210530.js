@@ -1,8 +1,10 @@
 let sum = 0;
 let value = 0;
-
-for (let sum = 0; (value = 0); value < 10) {
-  sum = value + sum;
+//sum = 55
+//value = 10
+while (value < 10) {
+  value += 1;
+  sum = sum + value;
 
   console.log(sum);
 }
